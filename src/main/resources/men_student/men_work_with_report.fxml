@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: #542036;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="men_student.Controller_men_for_report">
+   <children>
+      <AnchorPane layoutX="46.0" layoutY="182.0" prefHeight="476.0" prefWidth="806.0" style="-fx-background-color: #6A3951;">
+         <children>
+            <Button fx:id="add_report" layoutX="255.0" layoutY="73.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="296.0" style="-fx-background-color: #9E2F3B;" text="Сформировать запрос на проверку" textFill="#e5bbf0" />
+            <Button fx:id="read_report" layoutX="255.0" layoutY="199.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="296.0" style="-fx-background-color: #9E2F3B;" text="Проверить статус запроса" textFill="#e5bbf0" />
+            <Button fx:id="delete_report" layoutX="255.0" layoutY="327.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="296.0" style="-fx-background-color: #9E2F3B;" text="Удалить запрос" textFill="#e5bbf0" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="162.0" layoutY="53.0" prefHeight="70.0" prefWidth="631.0" text="Система расчета стипендий" textAlignment="JUSTIFY" textFill="#e5bbf0">
+         <font>
+            <Font name="Bookman Old Style" size="43.0" />
+         </font>
+      </Label>
+      <Button fx:id="exit" layoutX="793.0" layoutY="22.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="90.0" style="-fx-background-color: #9E2F3B;" text="Назад" textFill="#e5bbf0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: #542036;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kursovoy.Controller_work_reg_user">
+   <children>
+      <AnchorPane layoutX="59.0" layoutY="159.0" prefHeight="476.0" prefWidth="806.0" style="-fx-background-color: #6A3951;">
+         <children>
+            <Label layoutX="73.0" layoutY="57.0" prefHeight="38.0" prefWidth="268.0" text="Удалить учетную запись студента" textFill="#e5bbf0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="73.0" layoutY="113.0" prefHeight="26.0" prefWidth="268.0" text="Изменить логин учетной записи" textFill="#e5bbf0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button fx:id="change_password" layoutX="469.0" layoutY="156.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="221.0" style="-fx-background-color: #9E2F3B;" text="Выбрать студента" textFill="#e5bbf0" />
+            <Button fx:id="change_fio" layoutX="469.0" layoutY="205.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="221.0" style="-fx-background-color: #9E2F3B;" text="Выбрать студента" textFill="#e5bbf0" />
+            <Label layoutX="73.0" layoutY="162.0" prefHeight="26.0" prefWidth="268.0" text="Изменить пароль учетной записи" textFill="#e5bbf0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="73.0" layoutY="211.0" prefHeight="26.0" prefWidth="268.0" text="Изменить ФИО студента" textFill="#e5bbf0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="73.0" layoutY="272.0" prefHeight="26.0" prefWidth="362.0" text="Изменить наличие дополнительной стипендии" textFill="#e5bbf0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button fx:id="change_login" layoutX="469.0" layoutY="107.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="221.0" style="-fx-background-color: #9E2F3B;" text="Выбрать студента" textFill="#e5bbf0" />
+            <Button fx:id="delete_Student" layoutX="469.0" layoutY="57.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="221.0" style="-fx-background-color: #9E2F3B;" text="Выбрать студента" textFill="#e5bbf0" />
+            <Button fx:id="change_dop" layoutX="469.0" layoutY="266.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="221.0" style="-fx-background-color: #9E2F3B;" text="Выбрать студента" textFill="#e5bbf0" />
+            <Label layoutX="73.0" layoutY="337.0" prefHeight="26.0" prefWidth="362.0" text="Изменить дату рождения" textFill="#e5bbf0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button fx:id="change_age" layoutX="469.0" layoutY="331.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="221.0" style="-fx-background-color: #9E2F3B;" text="Выбрать студента" textFill="#e5bbf0" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="162.0" layoutY="53.0" prefHeight="70.0" prefWidth="631.0" text="Система расчета стипендий" textAlignment="JUSTIFY" textFill="#e5bbf0">
+         <font>
+            <Font name="Bookman Old Style" size="43.0" />
+         </font>
+      </Label>
+      <Button fx:id="exit" layoutX="793.0" layoutY="14.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="90.0" style="-fx-background-color: #9E2F3B;" text="Назад" textFill="#e5bbf0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: #542036;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="men_student.Controller_sort_student_men">
+   <children>
+      <AnchorPane layoutX="46.0" layoutY="184.0" prefHeight="476.0" prefWidth="806.0" style="-fx-background-color: #6A3951;">
+         <children>
+            <Button fx:id="id_student" layoutX="50.0" layoutY="64.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="306.0" style="-fx-background-color: #9E2F3B;" text="По номеру студенческого" textFill="#e5bbf0">
+               <font>
+                  <Font size="19.0" />
+               </font></Button>
+            <Label layoutX="320.0" layoutY="8.0" prefHeight="42.0" prefWidth="166.0" text="Поиск по..." textAlignment="JUSTIFY" textFill="#e5bbf0">
+               <font>
+                  <Font name="Bookman Old Style" size="27.0" />
+               </font>
+            </Label>
+            <Button fx:id="surname" layoutX="50.0" layoutY="126.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="306.0" style="-fx-background-color: #9E2F3B;" text="По фамилии " textFill="#e5bbf0">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="name" layoutX="50.0" layoutY="187.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="306.0" style="-fx-background-color: #9E2F3B;" text="По имени " textFill="#e5bbf0">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="patronymic" layoutX="50.0" layoutY="250.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="306.0" style="-fx-background-color: #9E2F3B;" text="По отчеству" textFill="#e5bbf0">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="group" layoutX="50.0" layoutY="316.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="306.0" style="-fx-background-color: #9E2F3B;" text="По группе" textFill="#e5bbf0">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="missing" layoutX="50.0" layoutY="381.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="306.0" style="-fx-background-color: #9E2F3B;" text="По пропускам" textFill="#e5bbf0">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="rating" layoutX="434.0" layoutY="66.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="314.0" style="-fx-background-color: #9E2F3B;" text="По рейтингу" textFill="#e5bbf0">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="up_rating" layoutX="434.0" layoutY="128.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="314.0" style="-fx-background-color: #9E2F3B;" text="Выше заданного рейтинга" textFill="#e5bbf0">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="down_rating" layoutX="434.0" layoutY="189.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="314.0" style="-fx-background-color: #9E2F3B;" text="Ниже заданного рейтинга" textFill="#e5bbf0">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="up_missing" layoutX="434.0" layoutY="252.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="314.0" style="-fx-background-color: #9E2F3B;" text="Выше заданных пропусков" textFill="#e5bbf0">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="down_missing" layoutX="435.0" layoutY="318.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="314.0" style="-fx-background-color: #9E2F3B;" text="Ниже заданных пропусков" textFill="#e5bbf0">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="162.0" layoutY="53.0" prefHeight="70.0" prefWidth="631.0" text="Система расчета стипендий" textAlignment="JUSTIFY" textFill="#e5bbf0">
+         <font>
+            <Font name="Bookman Old Style" size="43.0" />
+         </font>
+      </Label>
+      <Button fx:id="exit" layoutX="793.0" layoutY="22.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="90.0" style="-fx-background-color: #9E2F3B;" text="Назад" textFill="#e5bbf0" />
+   </children>
+</AnchorPane>

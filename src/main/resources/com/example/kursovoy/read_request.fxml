@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: #542036;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kursovoy.Controller_read_request">
+   <children>
+      <AnchorPane layoutX="59.0" layoutY="159.0" prefHeight="476.0" prefWidth="806.0" style="-fx-background-color: #6A3951;">
+         <children>
+            <TableView fx:id="table" layoutX="9.0" layoutY="38.0" prefHeight="411.0" prefWidth="787.0">
+              <columns>
+                <TableColumn fx:id="id_report" prefWidth="172.79998016357422" text="Номер запроса" />
+                  <TableColumn fx:id="scholarship" prefWidth="160.00003051757812" text="Начисленная стипендия" />
+                  <TableColumn fx:id="scholarship_f" prefWidth="142.39996337890625" text="Ожидаемая стипендия" />
+                  <TableColumn fx:id="status" prefWidth="138.4000244140625" text="Статус обработки" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="162.0" layoutY="53.0" prefHeight="70.0" prefWidth="631.0" text="Система расчета стипендий" textAlignment="JUSTIFY" textFill="#e5bbf0">
+         <font>
+            <Font name="Bookman Old Style" size="43.0" />
+         </font>
+      </Label>
+      <Button fx:id="exit" layoutX="793.0" layoutY="14.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="90.0" style="-fx-background-color: #9E2F3B;" text="Назад" textFill="#e5bbf0" />
+   </children>
+</AnchorPane>

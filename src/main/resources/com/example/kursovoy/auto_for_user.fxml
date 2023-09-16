@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: #542036;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kursovoy.Controller_auto_user">
+   <children>
+      <AnchorPane layoutX="56.0" layoutY="158.0" prefHeight="476.0" prefWidth="806.0" style="-fx-background-color: #6A3951;">
+         <children>
+            <Text fill="#e5bbf0" fontSmoothingType="LCD" layoutX="293.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Авторизация" textAlignment="JUSTIFY" wrappingWidth="219.595703125">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+            <TextField fx:id="login_admin" layoutX="244.0" layoutY="150.0" prefHeight="48.0" prefWidth="318.0" promptText="Логин" />
+            <PasswordField fx:id="password_admin" layoutX="244.0" layoutY="231.0" prefHeight="48.0" prefWidth="318.0" promptText="Пароль" />
+            <PasswordField fx:id="key_admin" layoutX="244.0" layoutY="306.0" prefHeight="48.0" prefWidth="318.0" promptText="Номер студенческого" />
+            <Button fx:id="input_auto" layoutX="316.0" layoutY="389.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="174.0" style="-fx-background-color: #9E2F3B;" text="Войти" textFill="#e5bbf0">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="162.0" layoutY="53.0" prefHeight="70.0" prefWidth="631.0" text="Система расчета стипендий" textAlignment="JUSTIFY" textFill="#e5bbf0">
+         <font>
+            <Font name="Bookman Old Style" size="43.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

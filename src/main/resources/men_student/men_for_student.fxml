@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: #542036;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="men_student.Controller_men_for_student">
+   <children>
+      <AnchorPane fx:id="find_ress" layoutX="46.0" layoutY="182.0" prefHeight="476.0" prefWidth="806.0" style="-fx-background-color: #6A3951;">
+         <children>
+            <Button fx:id="work_with_reg" layoutX="264.0" layoutY="14.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="278.0" style="-fx-background-color: #9E2F3B;" text="Работать с учетной записью" textFill="#e5bbf0" />
+            <Button fx:id="report" layoutX="264.0" layoutY="78.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="278.0" style="-fx-background-color: #9E2F3B;" text="Просмотор отчетов" textFill="#e5bbf0" />
+            <Button fx:id="filter_student" layoutX="264.0" layoutY="143.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="278.0" style="-fx-background-color: #9E2F3B;" text="Фильтарция студентов" textFill="#e5bbf0" />
+            <Button fx:id="work_with_zapros" layoutX="264.0" layoutY="276.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="278.0" style="-fx-background-color: #9E2F3B;" text="Работа с запросами " textFill="#e5bbf0" />
+            <Button fx:id="find_student" layoutX="264.0" layoutY="341.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="278.0" style="-fx-background-color: #9E2F3B;" text="Поиск других студента" textFill="#e5bbf0" />
+            <Button fx:id="filter_raschetov" layoutX="264.0" layoutY="211.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="278.0" style="-fx-background-color: #9E2F3B;" text="Фильтарция расчетов" textFill="#e5bbf0" />
+            <Button fx:id="find_res" layoutX="264.0" layoutY="407.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="278.0" style="-fx-background-color: #9E2F3B;" text="Поиск других расчетов" textFill="#e5bbf0" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="162.0" layoutY="53.0" prefHeight="70.0" prefWidth="631.0" text="Система расчета стипендий" textAlignment="JUSTIFY" textFill="#e5bbf0">
+         <font>
+            <Font name="Bookman Old Style" size="43.0" />
+         </font>
+      </Label>
+      <Button fx:id="exit" layoutX="793.0" layoutY="22.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="90.0" style="-fx-background-color: #9E2F3B;" text="Назад" textFill="#e5bbf0" />
+   </children>
+</AnchorPane>
